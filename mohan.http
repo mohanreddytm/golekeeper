@@ -1,0 +1,17 @@
+GET http://localhost:3000/players
+
+###
+
+GET http://localhost:3000/players/5
+
+
+###
+
+POST http://localhost:3000/players
+Content-Type: application/json
+
+{
+    "playerName":"Mohan",
+    "jerseyNumber":"16",
+    "role":"Gole Keeper"
+}
